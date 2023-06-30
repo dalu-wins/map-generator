@@ -3,27 +3,36 @@ package de.wins.maps;
 import java.util.Arrays;
 import java.util.Random;
 
-public class DiamondSquareMapBuilder extends MapBuilder {
+/***
+ * @author Daniil Wins
+ * @version 1.0
+ */
+public class HeightMapBuilder extends MapBuilder {
 
-    private static final int ROUGHNESS = 128;
+    private int roughness = 128;
 
     private final Random random = new Random();
 
     private final int size;
 
-    public DiamondSquareMapBuilder(int size) {
+    public HeightMapBuilder(int size) {
         super(size, size);
         this.size = size;
 
         if ((size - 1 & size - 2) != 0) throw new RuntimeException("Map size must equal (2 to the n-th power) + 1");
     }
 
+    public HeightMapBuilder setRoughness(int roughness) {
+        this.roughness = roughness;
+        return this;
+    }
+
     private void setRandomCorners(Color[][] colors) {
 
-        int topLeft = random.nextInt(0, 256);
-        int topRight = random.nextInt(0, 256);
-        int bottomLeft = random.nextInt(0, 256);
-        int bottomRight = random.nextInt(0, 256);
+        int topLeft = random.nextInt(0, Color.MAX_VALUE + 1);
+        int topRight = random.nextInt(0, Color.MAX_VALUE + 1);
+        int bottomLeft = random.nextInt(0, Color.MAX_VALUE + 1);
+        int bottomRight = random.nextInt(0, Color.MAX_VALUE + 1);
 
         colors[0][0] = Color.toGrayscale(topLeft);
         colors[0][size - 1] = Color.toGrayscale(topRight);
@@ -40,7 +49,7 @@ public class DiamondSquareMapBuilder extends MapBuilder {
         setRandomCorners(colors);
 
         int currentChunkSize = size - 1;
-        int currentRoughness = ROUGHNESS;
+        int currentRoughness = roughness;
         while (currentChunkSize > 1) {
             int half = currentChunkSize / 2;
             squareStep(colors, currentChunkSize, half, currentRoughness);
