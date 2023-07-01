@@ -53,11 +53,16 @@ public class Map {
 
     }
 
+    public void setColorized(boolean colorized) {
+        isColorized = colorized;
+    }
+
     public Map colorize() {
 
         if (isColorized) return this;       // only colorize if not yet colorized
 
         Map map = new Map(new Color[height][width]);
+        map.setColorized(true);
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
                 Landscape landscape = Levels.getLandscapeByHeight(pixels[y][x].getGrayscale());
@@ -65,8 +70,6 @@ public class Map {
                 map.pixels[y][x] = color;
             }
         }
-
-        isColorized = true;
 
         return map;
     }
@@ -76,6 +79,7 @@ public class Map {
         if (!isColorized) return this;      // only colorized maps can be smoothed
 
         Map map = new Map(new Color[height][width]);
+        map.setColorized(true);
 
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
@@ -107,14 +111,17 @@ public class Map {
     }
 
     public Map upscale() {
-        Color[][] colors = new Color[height*2][width*2];
+
+        Map map = new Map(new Color[height*2][width*2]);
+        map.setColorized(this.isColorized);
+        Color[][] colors = map.getPixels();
         for (int y = 0; y < height*2; y++) {
             for (int x = 0; x < width*2; x++) {
                 colors[y][x] = this.getPixels()[y/2][x/2];
             }
         }
 
-        return new Map(colors).smooth();
+        return map.smooth();
 
     }
 
