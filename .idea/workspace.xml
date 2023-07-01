@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf1c5863-3cb9-47c5-99ab-4715161e493f" name="Changes" comment="roughness made easily changeable on map creation">
+    <list default="true" id="cf1c5863-3cb9-47c5-99ab-4715161e493f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/diamondSquareHighRes.bmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diamondSquare.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/diamondSquare.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flatMap.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/flatMap.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/Colors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/HeightMapBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/HeightMapBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/Landscape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/Landscape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/Levels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/Levels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diamondSquare.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/diamondSquareDefault.bmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/MapBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/MapBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/NullColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/NullColor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +66,19 @@
       <updated>1688151995583</updated>
       <workItem from="1688151997250" duration="492000" />
       <workItem from="1688152520121" duration="14147000" />
-      <workItem from="1688166737234" duration="696000" />
+      <workItem from="1688166737234" duration="774000" />
+      <workItem from="1688167536834" duration="204000" />
+      <workItem from="1688215905325" duration="102000" />
+      <workItem from="1688223788226" duration="1835000" />
     </task>
+    <task id="LOCAL-00001" summary="roughness made easily changeable on map creation">
+      <created>1688167461035</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688167461035</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

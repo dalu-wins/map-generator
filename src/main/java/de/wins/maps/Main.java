@@ -21,7 +21,9 @@ public class Main {
             .generate()
             .colorize()
             .smooth()
-            .save("diamondSquare");
+            .save("diamondSquareDefault")
+            .increaseResolution(2)
+            .save("diamondSquareHighRes");
 
     }
 }
