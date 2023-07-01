@@ -20,7 +20,7 @@ public class Main {
             .generate().save("maps/diamondsquare/basic")
             .colorize().save("maps/diamondsquare/colorized")
             .smooth().save("maps/diamondsquare/smoothed")
-            .upscale(2).save("maps/diamondsquare/upscaled");
+            .upscale().save("maps/diamondsquare/upscaled");
 
 
     }

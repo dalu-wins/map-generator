@@ -55,7 +55,7 @@ public class Map {
 
     public Map colorize() {
 
-        if (isColorized) return this;
+        if (isColorized) return this;       // only colorize if not yet colorized
 
         Map map = new Map(new Color[height][width]);
         for (int y = 0; y < height; y++) {
@@ -72,6 +72,8 @@ public class Map {
     }
 
     public Map smooth() {
+
+        if (!isColorized) return this;      // only colorized maps can be smoothed
 
         Map map = new Map(new Color[height][width]);
 
@@ -104,7 +106,7 @@ public class Map {
 
     }
 
-    public Map upscale(int iterations) {
+    public Map upscale() {
         Color[][] colors = new Color[height*2][width*2];
         for (int y = 0; y < height*2; y++) {
             for (int x = 0; x < width*2; x++) {
@@ -112,11 +114,7 @@ public class Map {
             }
         }
 
-        if (iterations > 1) {
-            return new Map(colors).smooth().upscale(iterations - 1);
-        } else {
-            return new Map(colors).smooth();
-        }
+        return new Map(colors).smooth();
 
     }
 
