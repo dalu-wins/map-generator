@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf1c5863-3cb9-47c5-99ab-4715161e493f" name="Changes" comment="" />
+    <list default="true" id="cf1c5863-3cb9-47c5-99ab-4715161e493f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/default/basic.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/default/colorized.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/diamondsquare/basic.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/diamondsquare/colorized.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/diamondsquare/smoothed.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/diamondsquare/upscaled.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/color/Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/color/LandscapeColors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/landscape/Landscape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/landscape/Landscape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/landscape/Levels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/mapbuilder/HeightMapBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/mapbuilder/HeightMapBuilder.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,18 +46,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.wins.maps.Main" />
@@ -67,6 +81,7 @@
       <workItem from="1688167536834" duration="204000" />
       <workItem from="1688215905325" duration="102000" />
       <workItem from="1688223788226" duration="4890000" />
+      <workItem from="1688228681447" duration="612000" />
     </task>
     <task id="LOCAL-00001" summary="roughness made easily changeable on map creation">
       <created>1688167461035</created>
@@ -110,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688228083521</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fixed smoothing issue">
+      <created>1688228982175</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688228982175</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +146,7 @@
     <MESSAGE value="simplified commands to create map" />
     <MESSAGE value="smoothing only colorized&#10;upscaling by 2 is default now" />
     <MESSAGE value="removed useless map variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed useless map variables" />
+    <MESSAGE value="fixed smoothing issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed smoothing issue" />
   </component>
 </project>

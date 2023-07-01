@@ -3,7 +3,6 @@ package de.wins.maps;
 import de.wins.maps.color.Color;
 import de.wins.maps.color.NullColor;
 import de.wins.maps.landscape.Landscape;
-import de.wins.maps.landscape.Levels;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -65,7 +64,7 @@ public class Map {
         map.setColorized(true);
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
-                Landscape landscape = Levels.getLandscapeByHeight(pixels[y][x].getGrayscale());
+                Landscape landscape = Landscape.getLandscapeByHeight(pixels[y][x].getGrayscale());
                 Color color = landscape.color();
                 map.pixels[y][x] = color;
             }

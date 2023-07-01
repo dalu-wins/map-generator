@@ -1,12 +1,10 @@
 package de.wins.maps.color;
 
-import de.wins.maps.color.Color;
-
 /***
  * @author Daniil Wins
  * @version 1.0
  */
-public class Colors {
+public class LandscapeColors {
 
     public static final Color DEEP_OCEAN_COLOR = new Color(0,40,80);
     public static final Color OCEAN_COLOR = new Color(0,65,130);
