@@ -9,14 +9,13 @@ import de.wins.maps.Map;
  */
 public class MapBuilder {
 
-    protected int avgHeight;
+    protected int avgHeight = 100;
     protected int width;
     protected int height;
 
     public MapBuilder(int width, int height) {
         this.width = width;
         this.height = height;
-        this.avgHeight = 0;
     }
 
     public Map generate() {

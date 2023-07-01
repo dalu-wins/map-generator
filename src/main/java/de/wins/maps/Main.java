@@ -12,21 +12,16 @@ import de.wins.maps.mapbuilder.MapBuilder;
 public class Main {
     public static void main(String[] args) {
 
-        Map map1 = new MapBuilder(5, 5)
-            .setAvgHeight(100)
-            .generate()
-            .colorize()
-            .save("flatMap");
+        Map map1 = new MapBuilder(257, 257)
+            .generate().save("maps/default/basic")
+            .colorize().save("maps/default/colorized");
 
         Map map2 = new HeightMapBuilder(257)
-            .setRoughness(170)
-            .setAvgHeight(100)
-            .generate()
-            .colorize()
-            .smooth()
-            .save("diamondSquareDefault")
-            .increaseResolution(2)
-            .save("diamondSquareHighRes");
+            .generate().save("maps/diamondsquare/basic")
+            .colorize().save("maps/diamondsquare/colorized")
+            .smooth().save("maps/diamondsquare/smoothed")
+            .upscale(2).save("maps/diamondsquare/upscaled");
+
 
     }
 }

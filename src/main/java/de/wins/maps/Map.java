@@ -104,7 +104,7 @@ public class Map {
 
     }
 
-    public Map increaseResolution(int iterations) {
+    public Map upscale(int iterations) {
         Color[][] colors = new Color[height*2][width*2];
         for (int y = 0; y < height*2; y++) {
             for (int x = 0; x < width*2; x++) {
@@ -113,7 +113,7 @@ public class Map {
         }
 
         if (iterations > 1) {
-            return new Map(colors).smooth().increaseResolution(iterations - 1);
+            return new Map(colors).smooth().upscale(iterations - 1);
         } else {
             return new Map(colors).smooth();
         }

@@ -12,7 +12,7 @@ import java.util.Random;
  */
 public class HeightMapBuilder extends MapBuilder {
 
-    private int roughness = 128;
+    private int roughness = 150;
 
     private final Random random = new Random();
 
