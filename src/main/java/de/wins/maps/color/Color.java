@@ -1,4 +1,4 @@
-package de.wins.maps;
+package de.wins.maps.color;
 
 import java.util.Arrays;
 import java.util.Iterator;

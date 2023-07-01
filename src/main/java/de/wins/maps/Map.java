@@ -1,5 +1,10 @@
 package de.wins.maps;
 
+import de.wins.maps.color.Color;
+import de.wins.maps.color.NullColor;
+import de.wins.maps.landscape.Landscape;
+import de.wins.maps.landscape.Levels;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -13,7 +18,7 @@ public class Map {
 
     private final int width;
     private final int height;
-    private final Color [][] pixels;
+    private final Color[][] pixels;
 
     private boolean isColorized = false;
 

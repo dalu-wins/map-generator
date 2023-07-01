@@ -1,4 +1,6 @@
-package de.wins.maps;
+package de.wins.maps.color;
+
+import de.wins.maps.color.Color;
 
 /***
  * @author Daniil Wins

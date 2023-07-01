@@ -1,5 +1,8 @@
 package de.wins.maps;
 
+import de.wins.maps.mapbuilder.HeightMapBuilder;
+import de.wins.maps.mapbuilder.MapBuilder;
+
 /***
  * @author Daniil Wins
  * @version 1.0
