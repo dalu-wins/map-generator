@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf1c5863-3cb9-47c5-99ab-4715161e493f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/maps/diamondsquare/basic.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/maps/diamondsquare/basic.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/diamondsquare/colorized.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/maps/diamondsquare/colorized.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/diamondsquare/smoothed.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/maps/diamondsquare/smoothed.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/diamondsquare/upscaled.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/maps/diamondsquare/upscaled.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +68,7 @@
       <workItem from="1688166737234" duration="774000" />
       <workItem from="1688167536834" duration="204000" />
       <workItem from="1688215905325" duration="102000" />
-      <workItem from="1688223788226" duration="3752000" />
+      <workItem from="1688223788226" duration="4240000" />
     </task>
     <task id="LOCAL-00001" summary="roughness made easily changeable on map creation">
       <created>1688167461035</created>
@@ -103,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688227271245</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="smoothing only colorized&#10;upscaling by 2 is default now">
+      <created>1688227884683</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688227884683</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +117,7 @@
     <MESSAGE value="added increaseResolution to make images sharper" />
     <MESSAGE value="restructured project" />
     <MESSAGE value="simplified commands to create map" />
-    <option name="LAST_COMMIT_MESSAGE" value="simplified commands to create map" />
+    <MESSAGE value="smoothing only colorized&#10;upscaling by 2 is default now" />
+    <option name="LAST_COMMIT_MESSAGE" value="smoothing only colorized&#10;upscaling by 2 is default now" />
   </component>
 </project>
