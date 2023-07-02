@@ -19,11 +19,11 @@ As you can see the image has some single pixels colorized in a different color a
 
 ![smoothing phase](https://github.com/dalu-wins/ProceduralMaps/blob/master/maps/diamondsquare/smoothed.bmp)
 
-### Upscayling
-You can always call the upscayling method in any phase of the map creation. It doubles the resolution of the previous phase's map.
+### Upscaling
+You can always call the upscaling method in any phase of the map creation. It doubles the resolution of the previous phase's map.
 In this example we call it last and get the following result:
 
-![upscayling phase](https://github.com/dalu-wins/ProceduralMaps/blob/master/maps/diamondsquare/upscaled.bmp)
+![upscaling phase](https://github.com/dalu-wins/ProceduralMaps/blob/master/maps/diamondsquare/upscaled.bmp)
 
 ## Setting special variables
 
