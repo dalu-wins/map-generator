@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf1c5863-3cb9-47c5-99ab-4715161e493f" name="Changes" comment="">
+    <list default="true" id="cf1c5863-3cb9-47c5-99ab-4715161e493f" name="Changes" comment="shortened README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/default/basic.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/default/colorized.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/diamondsquare/basic.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/maps/diamondsquare/basic.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/diamondsquare/colorized.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/maps/diamondsquare/colorized.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/diamondsquare/smoothed.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/maps/diamondsquare/smoothed.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/diamondsquare/upscaled.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/maps/diamondsquare/upscaled.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/landscape/Landscape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/landscape/Landscape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/mapbuilder/HeightMapBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/mapbuilder/DiamondSquareMapBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +23,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dalu-wins"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dalu-wins/procedural-maps.git",
+    "accountId": "965cae27-c62e-4a4f-9e46-4e248b4dc4c3"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/README.md" root0="SKIP_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -100,7 +107,7 @@
       <workItem from="1688223788226" duration="4890000" />
       <workItem from="1688228681447" duration="612000" />
       <workItem from="1715250885667" duration="73000" />
-      <workItem from="1715250965902" duration="763000" />
+      <workItem from="1715250965902" duration="1945000" />
     </task>
     <task id="LOCAL-00001" summary="roughness made easily changeable on map creation">
       <created>1688167461035</created>
@@ -151,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688228982175</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refined code">
+      <option name="closed" value="true" />
+      <created>1715251881535</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715251881535</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +181,8 @@
     <MESSAGE value="smoothing only colorized&#10;upscaling by 2 is default now" />
     <MESSAGE value="removed useless map variables" />
     <MESSAGE value="fixed smoothing issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed smoothing issue" />
+    <MESSAGE value="refined code" />
+    <MESSAGE value="shortened README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="shortened README.md" />
   </component>
 </project>
