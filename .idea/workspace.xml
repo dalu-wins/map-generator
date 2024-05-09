@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf1c5863-3cb9-47c5-99ab-4715161e493f" name="Changes" comment="shortened README.md">
+    <list default="true" id="cf1c5863-3cb9-47c5-99ab-4715161e493f" name="Changes" comment="Updated README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/wins/maps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wins/maps/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +71,27 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.wins.maps.Main" />
-      <module name="ProceduralMaps" />
+      <module name="map-generator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="map-generator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="map-generator" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,7 +121,7 @@
       <workItem from="1688223788226" duration="4890000" />
       <workItem from="1688228681447" duration="612000" />
       <workItem from="1715250885667" duration="73000" />
-      <workItem from="1715250965902" duration="1945000" />
+      <workItem from="1715250965902" duration="2386000" />
     </task>
     <task id="LOCAL-00001" summary="roughness made easily changeable on map creation">
       <created>1688167461035</created>
@@ -166,7 +180,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715251881535</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="shortened README.md">
+      <option name="closed" value="true" />
+      <created>1715253093303</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715253093303</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated README.md">
+      <option name="closed" value="true" />
+      <created>1715253215138</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715253215138</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +213,7 @@
     <MESSAGE value="fixed smoothing issue" />
     <MESSAGE value="refined code" />
     <MESSAGE value="shortened README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="shortened README.md" />
+    <MESSAGE value="Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
   </component>
 </project>

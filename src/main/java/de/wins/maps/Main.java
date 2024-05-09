@@ -10,7 +10,7 @@ import de.wins.maps.mapbuilder.DiamondSquareMapBuilder;
  */
 public class Main {
     public static void main(String[] args) {
-        // Example on how to build a simple map
+        //  This is an example of how to build a simple map
         new DiamondSquareMapBuilder(257)
                 .setRoughness(220)
                 .setAvgHeight(100)
