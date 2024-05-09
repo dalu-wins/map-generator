@@ -10,7 +10,7 @@ import java.util.Random;
  * @author Daniil Wins
  * @version 1.0
  */
-public class HeightMapBuilder extends MapBuilder {
+public class DiamondSquareMapBuilder extends MapBuilder {
 
     private int roughness = 160;
 
@@ -18,14 +18,14 @@ public class HeightMapBuilder extends MapBuilder {
 
     private final int size;
 
-    public HeightMapBuilder(int size) {
+    public DiamondSquareMapBuilder(int size) {
         super(size, size);
         this.size = size;
 
         if ((size - 1 & size - 2) != 0) throw new RuntimeException("Map size must equal (2 to the n-th power) + 1");
     }
 
-    public HeightMapBuilder setRoughness(int roughness) {
+    public DiamondSquareMapBuilder setRoughness(int roughness) {
         this.roughness = roughness;
         return this;
     }

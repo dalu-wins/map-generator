@@ -1,7 +1,6 @@
 package de.wins.maps;
 
-import de.wins.maps.mapbuilder.HeightMapBuilder;
-import de.wins.maps.mapbuilder.MapBuilder;
+import de.wins.maps.mapbuilder.DiamondSquareMapBuilder;
 
 /***
  * @author Daniil Wins
@@ -11,17 +10,13 @@ import de.wins.maps.mapbuilder.MapBuilder;
  */
 public class Main {
     public static void main(String[] args) {
-
-        new MapBuilder(257, 257)
-            .generate().save("maps/default/basic")
-            .colorize().save("maps/default/colorized");
-
-        new HeightMapBuilder(257)
-            .generate().save("maps/diamondsquare/basic")
-            .colorize().save("maps/diamondsquare/colorized")
-            .smooth().save("maps/diamondsquare/smoothed")
-            .upscale().save("maps/diamondsquare/upscaled");
-
-
+        // Example on how to build a simple map
+        new DiamondSquareMapBuilder(257)
+                .setRoughness(220)
+                .setAvgHeight(100)
+                .generate().save("maps/diamondsquare/basic")
+                .colorize().save("maps/diamondsquare/colorized")
+                .smooth().save("maps/diamondsquare/smoothed")
+                .upscale().save("maps/diamondsquare/upscaled");
     }
 }
