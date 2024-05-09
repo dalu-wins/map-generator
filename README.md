@@ -14,6 +14,12 @@ new DiamondSquareMapBuilder(257)
 ```
 The code produces the following output:
 <table>
+<tr>
+    <td>basic</td>
+    <td>colorized</td>
+    <td>smoothed</td>
+    <td>upscaled</td>
+  </tr>
   <tr>
     <td><img src="https://github.com/dalu-wins/procedural-maps/blob/master/maps/diamondsquare/basic.bmp"></td>
     <td><img src="https://github.com/dalu-wins/procedural-maps/blob/master/maps/diamondsquare/colorized.bmp"></td>
