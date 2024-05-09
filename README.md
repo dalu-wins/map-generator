@@ -2,7 +2,8 @@
 Map generator based on the diamond-square algorithm, as explained in [this](https://www.youtube.com/watch?v=4GuAV1PnurU&t=619s&ab_channel=KlaytonKowalski) YouTube video.
 ## Map Generation Process
 ```java
-// This is an example for how to build a simple map
+// This is an example of how to build a simple map
+
 new DiamondSquareMapBuilder(257)
     .setRoughness(220)
     .setAvgHeight(100)
@@ -12,7 +13,6 @@ new DiamondSquareMapBuilder(257)
     .smooth().save("maps/diamondsquare/smoothed")
     .upscale().save("maps/diamondsquare/upscaled");
 ```
-The code produces the following output:
 <table>
 <tr>
     <td>basic</td>
