@@ -1,4 +1,4 @@
-# Map Generator
+# 🗺️ Map Generator
 Map generator based on the diamond-square algorithm as explained in [this](https://www.youtube.com/watch?v=4GuAV1PnurU&t=619s&ab_channel=KlaytonKowalski) YouTube video.
 ## Map Generation Process
 ```java
